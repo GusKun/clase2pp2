@@ -1,0 +1,7 @@
+1- git add .
+2- git commit -m "El mensaje del commit"
+3- git push
+
+Notas:
+	Comando 'git clone': se utiliza una vez por cada repositorio.
+	Comando 'git status': se ejecuta las veces que uno quiera.
