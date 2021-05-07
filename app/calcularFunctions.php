@@ -13,7 +13,7 @@ function dividir($num1, $num2)
 	{
 		echo "<br>";
 		echo "¡ERROR! No se puede dividir entre cero";
-		return false;
+		return "infinito";
 	}else
 	{
 
@@ -61,7 +61,7 @@ function calcular($num1, $operador, $num2)
 
 function mostrarResultado($nResultado)
 {
-	if($nResultado != false ||  $nResultado ==0)
+	if($nResultado != "infinito")
 	{
 	echo "<br>";
 	echo "El resultado es ".$nResultado;
