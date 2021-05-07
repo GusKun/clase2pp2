@@ -61,7 +61,7 @@ function calcular($num1, $operador, $num2)
 
 function mostrarResultado($nResultado)
 {
-	if($nResultado != false)
+	if($nResultado != false ||  $nResultado ==0)
 	{
 	echo "<br>";
 	echo "El resultado es ".$nResultado;
